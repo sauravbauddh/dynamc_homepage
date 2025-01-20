@@ -1,16 +1,46 @@
-# thematic_ui
+# Theme-Based Dynamic Homepage
 
-A new Flutter project.
+A Flutter application featuring a dynamic home page that adapts its theme and UI elements based on festival events. Built with Flutter and AppWrite for backend services.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+### Core Features
+- Dynamic theme transitions based on festival events
+- AppWrite integration for banner and asset management
+- Fallback mechanism for offline functionality
+- Interactive animations and transitions
+- Pull-to-refresh functionality
+- Skeleton loading screens
 
-A few resources to get you started if this is your first Flutter project:
+### Technical Features
+- GetX for state management
+- AppWrite backend integration
+- Custom animations
+- Error handling system
+- Responsive design
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Why AppWrite Instead of Firebase?
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Initially started with Firebase but switched to AppWrite due to Firebase Storage being part of the Blaze (paid) plan. AppWrite provides a great free alternative with similar functionality.
+
+## Features Implementation
+
+### UI Components
+- Shimmer loading effects
+- Festival-based asset loading system
+- Dynamic banner system
+- Error state handling
+
+### State Management
+- GetX for state management
+- Local storage for preferences
+- AppWrite real-time updates
+
+## Future Improvements
+- Enhanced animations
+- Asset caching
+- Unit test implementation
+- Multi-language support
+
+## Note
+AppWrite credentials should typically be stored in environment variables, but for demo purposes, they're included in the project files.
